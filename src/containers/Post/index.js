@@ -9,9 +9,11 @@ import "./style.css";
  **/
 
 const Post = (props) => {
+  console.log(props);
+
   return (
     <section className="container">
-      <BlogPost></BlogPost>
+      <BlogPost {...props}></BlogPost>
       <SideBar></SideBar>
     </section>
   );

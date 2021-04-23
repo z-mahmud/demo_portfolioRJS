@@ -15,7 +15,7 @@ function App() {
         <Hero></Hero>
         <Route exact path="/" component={Home}></Route>
         <Route path="/contactus" component={ContactUS}></Route>
-        <Route path="/post" component={Post}></Route>
+        <Route path="/post/:postId" component={Post}></Route>
       </Router>
     </div>
   );
